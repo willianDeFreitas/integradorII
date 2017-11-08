@@ -1,0 +1,103 @@
+/* *{ */
+	/* margin: 0; */
+    /* padding: 0; */
+	/* font: small-caps bold 14px "Palatino", sans-serif;	 */
+/* } */
+
+.title{
+    background-color: #e5e5e5;
+    color: #404040;
+    /* font: small-caps bold 14px "Palatino", sans-serif; */
+    padding-bottom:0%;
+    width: 100%;
+    height: 6.5em;
+    text-align: center;
+    font-size: 100%;
+    border-top:1em solid #A61936;
+}
+#fundo{
+	 background-image: url(img/fundo7.jpeg);
+}
+h2{
+    /* font-size: 70%; */
+    height:10%;
+    /* padding-left: 30px; */
+    /* padding-right: 30px; */
+
+}
+p{
+    color: #334455;
+    width: 100%;
+    float:center;
+    left: 0%;
+    text-align: center;
+    margin: 0.1em;
+}
+input{
+    width: 30em;
+    line-height: 1.5em;
+    max-width: 30em;
+}
+textarea {
+    width: 30em;
+    height: 12em;
+    line-height: 1em;
+    max-width: 200em;
+}
+.botao{
+    padding: 1%;
+    border: 0em;
+    font-size: 50%;
+    text-decoration: none;
+    background-color: #A61936;
+    color: #E5E5E5;
+    text-align: center;
+    border-radius: 1em 1em 1em 1em;
+    margin: 0em 0em 0.3em 0em;
+    font-weight:bold;
+}
+.botao:hover{
+    color: #A61936;
+    background-color: #e5e5e5;
+}
+#btenviarnov{
+    padding: 1em;
+    font-size: 80%;
+}
+#obrigado{
+    padding-top: 5%;
+    padding-bottom: 3%;	
+}
+#enviar{
+    font-size: 90%;
+    margin-left: 0;
+}
+#limpar{
+    font-size: 90%;
+    margin-left: 0;
+}
+.voltarAoSite {
+    text-decoration: none;
+    color: #A61936;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 0.7em;
+    padding: 0.5em;
+    font-weight:bold;
+    max-width: 8em;
+    position: relative;
+    border: 0.12em dashed #A61936;
+
+}
+.voltarAoSite:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    border:0.2em dashed #A61936;
+}
+
+#faleconoscobt{
+    padding: 0.5em 0.5em 0.5em 0.5em;
+} 
+
+#facbt{
+    font-size: 0.9em;
+
+}
