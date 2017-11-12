@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login&Senha</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    </head>
+    <body>
+        <div class="corpo">
+            <h2>Cadastre seu usuário</h2>
+            <form name="form1" accept-charset="UTF-8" action="Control1" method="POST">
+                <table>    
+                    <tr><td>Nome:</td><td><input type="text" name="nome" required/></td></tr>
+                    <tr><td>Usuário:</td><td><input type="text" name="user" required/></td></tr>
+                    <tr><td>Senha:</td><td><input type="password" name="senha" required/></td></tr>
+                </table><br>
+                <input type="submit" value="Cadastrar"/><br>    
+            </form>
+            <form name="form2" action="login.html" method="POST">
+                <input type="submit" value="Login"/><br>
+                <span class="obs">Se já possui cadastro faça Login</span>
+            </form>
+        </div>
+    </body>
+</html>
