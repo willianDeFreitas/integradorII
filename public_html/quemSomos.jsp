@@ -12,20 +12,15 @@ and open the template in the editor.
     </head>
     <body>
         <nav>
-            <div class="nav-wrapper blue">
-                <a href="#" class="brand-logo">Logo</a>
+            <div class="nav-wrapper deep-purple darken-2">
+                <a href="#" class="brand-logo">PII</a>
                 <ul  class="right hide-on-med-and-down">
+                    <li><a href="">Quem somos</a></li>
                     <li><a href="">Cursos</a></li>
-                    <li><a href="">Components</a></li>
-                    <li><a href="">Login</a></li>
-                    <li><i class="material-icons">enhanced_encryption</i></li>
+                    <li><a href="">Fale Conosco</a></li>
                 </ul> 
             </div>
         </nav>
-
-
-
-
         <div class="row">
             <div class="col s1 m6 ">
                 <div class="card-panel grey lighten-5 z-depth-1">
@@ -35,13 +30,12 @@ and open the template in the editor.
                         </div>
                         <div class="col s10">
                             <span class="black-text">
-                                This is a square image. Add the "circle" class to it to make it appear circular.
+                                Breno
                             </span>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="col s1 m6 ">
                 <div class="card-panel grey lighten-5 z-depth-1">
                     <div class="row valign-wrapper">
@@ -50,31 +44,14 @@ and open the template in the editor.
                         </div>
                         <div class="col s10">
                             <span class="black-text">
-                                This is a square image. Add the "circle" class to it to make it appear circular.
+                                Willian
                             </span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer class="page-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col l6 s12">
-                        <h5 class="white-text">Footer Content</h5>
-                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-                    </div>
-                    <div class="col l4 offset-l2 s12">
-                        <h5 class="white-text">Links</h5>
-                        <ul>
-                            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <footer class="page-footer deep-purple darken-2">
             <div class="footer-copyright">
                 <div class="container">
                     © 2014 Copyright Text
@@ -82,8 +59,6 @@ and open the template in the editor.
                 </div>
             </div>
         </footer>
-
-
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script type="text/javascript" src="js.js"></script>
