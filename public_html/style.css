@@ -9,18 +9,25 @@ and open the template in the editor.
 */
 
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+   
+    min-height: 100vh;    
 }
 
-main {
-    flex: 1 0 auto;
-}
-
-footer{
+/*footer{
 
     position: absolute;
     bottom: 0px;
     width: 100%;
+}*/
+
+.formcad {
+    height: 80%;
+    margin-top: 5%;
+}
+
+.rotate:hover
+{
+        -webkit-transform: rotateZ(-36deg);
+        -ms-transform: rotateZ(-360deg);
+        transform: rotateZ(-360deg);
 }

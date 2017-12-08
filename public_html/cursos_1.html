@@ -75,7 +75,7 @@
                     <div class="row valign-wrapper">
 
                         <div class="col m6 ">
-                            <div id="arquitetura" class="card horizontal valign-wrapper hoverable">
+                            <div id="arquitetura" class=" fundamentos card horizontal valign-wrapper hoverable">
                                 <div class="arqui card-image">
                                     <img style=" height: 175px; width: auto; padding: 15px;"
                                          src="http://simpleicon.com/wp-content/uploads/computer-5.svg">
@@ -87,7 +87,7 @@
                                     </div>
 
                                     <div class="card-action center-align">
-                                        <a href="/cursos/aoc.html">Começar</a>
+                                        <a href="cursos/aoc.html">Começar</a>
                                     </div>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@
                                     </div>
 
                                     <div class="card-action center-align">
-                                        <a href="/cursos/fwd.html">Começar</a>
+                                        <a href="cursos/fwd.html">Começar</a>
                                     </div>
                                 </div>
                             </div>
@@ -142,7 +142,7 @@
                     <div class="row valign-wrapper">
 
                         <div class="col l6">
-                            <div class=" ingles card horizontal valign-wrapper hoverable">
+                            <div class=" fundamentos card horizontal valign-wrapper hoverable">
                                 <div class=" in card-image">
                                     <img style=" height: 175px; width: auto; padding: 15px;"
                                          src="http://www.languageicon.org/LanguageIcon.jpg">
@@ -154,7 +154,7 @@
                                     </div>
 
                                     <div class="card-action center-align">
-                                        <a href="/cursos/in.html">Começar</a>
+                                        <a href="cursos/in.html">Começar</a>
                                     </div>
                                 </div>
                             </div>
@@ -180,7 +180,7 @@
                         </div>
                         <!--img efeito-->
                         <div class="col l6">
-                            <div id="k" class=" cartao card horizontal valign-wrapper hoverable">
+                            <div id="k" class=" fundamentos card horizontal valign-wrapper hoverable">
                                 <div class="card-image ">
 
                                     <img  class="rol" style=" height: 175px; width: auto; padding: 15px;"
@@ -193,7 +193,7 @@
                                     </div>
 
                                     <div class="card-action center-align">
-                                        <a href="/cursos/alg.html">Começar</a>
+                                        <a href="cursos/alg.html">Começar</a>
                                     </div>
                                 </div>
                             </div>
@@ -204,7 +204,7 @@
                     <div class="row valign-wrapper">
 
                         <div class="col l6">
-                            <div class="metodo card horizontal valign-wrapper hoverable">
+                            <div class="fundamentos card horizontal valign-wrapper hoverable">
                                 <div class=" metod card-image">
                                     <img style=" height: 175px; width: auto; padding: 15px;"
                                          src="https://image.flaticon.com/icons/svg/33/33490.svg">
@@ -216,7 +216,7 @@
                                     </div>
 
                                     <div class="card-action center-align">
-                                        <a href="/cursos/mc.html">Começar</a>
+                                        <a href="cursos/mc.html">Começar</a>
                                     </div>
                                 </div>
                             </div>
@@ -243,7 +243,7 @@
                         </div>
 
                         <div class="col l6 right">
-                            <div class=" sist card horizontal valign-wrapper hoverable">
+                            <div class=" fundamentos card horizontal valign-wrapper hoverable">
                                 <div class=" sisto card-image">
                                     <img style=" height: 175px; width: auto; padding: 15px;"
                                          src="http://cdn.onlinewebfonts.com/svg/img_365411.svg">
@@ -255,7 +255,7 @@
                                     </div>
 
                                     <div class="card-action center-align">
-                                        <a href="/cursos/so.html">Começar</a>
+                                        <a href="cursos/so.html">Começar</a>
                                     </div>
                                 </div>
                             </div>
@@ -336,49 +336,17 @@
         </footer>
         <script type="text/javascript" src="jquery-3.1.0.js"></script>
         <script>
- 
+
 
             //animação das imagens
-            $('#arquitetura').mouseenter(function () {
-                $(".arqui").addClass("fullRotate");
-            });
-            $('#arquitetura').mouseleave(function () {
-                $(".arqui").removeClass("fullRotate");
-            });
-
             $('.fundamentos').mouseenter(function () {
-                $(".fund").addClass("fullRotate");
+                $(this).find("div:eq(0)").addClass("fullRotate");
             });
+
             $('.fundamentos').mouseleave(function () {
-                $(".fund").removeClass("fullRotate");
+                $(this).find("div:eq(0)").removeClass("fullRotate");
             });
 
-            $('.ingles').hover(function () {
-                $(".in").addClass("fullRotate");
-            });
-            $('.ingles').mouseleave(function () {
-                $(".in").removeClass("fullRotate");
-            });
-
-            $('.cartao').mouseenter(function () {
-                $(".rol").addClass("fullRotate");
-            });
-            $('.cartao').mouseleave(function () {
-                $(".rol").removeClass("fullRotate");
-            });
-            $('.metodo').mouseenter(function () {
-                $(".metod").addClass("fullRotate");
-            });
-            $('.metodo').mouseleave(function () {
-                $(".metod").removeClass("fullRotate");
-            });
-
-            $('.sist').mouseenter(function () {
-                $(".sisto").addClass("fullRotate");
-            });
-            $('.sist').mouseleave(function () {
-                $(".sisto").removeClass("fullRotate");
-            });
 
         </script>
 
