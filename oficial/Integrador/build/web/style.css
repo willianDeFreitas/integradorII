@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/11/2017, 20:15:29
+    Author     : brenn
+*/
+
+body {
+   
+    min-height: 100vh;    
+}
+
+/*footer{
+
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}*/
+
+.formcad {
+    height: 80%;
+    margin-top: 5%;
+}
+
+.rotate:hover
+{
+        -webkit-transform: rotateZ(-36deg);
+        -ms-transform: rotateZ(-360deg);
+        transform: rotateZ(-360deg);
+}
