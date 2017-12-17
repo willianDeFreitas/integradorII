@@ -3,7 +3,7 @@
         <meta charset="UTF-8">
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
         <title>Cadastro</title>
     </head>
     <body>
@@ -74,7 +74,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col l6 s12">
-                        <h5 class="white-text">PII</h5>
+                        <h5 class="white-text">PI2</h5>
                         <p align="justify">Nós somos um time de estudantes universitarios, trabalhando
                             em um projeto, denominado Projeto Integrador, pelo 
 <a target="_blank" href="http://www.iftm.edu.br/uberlandiacentro/"> <strong class="white-text">Instituto Federal de Ciencias e Tecnologia do
@@ -103,6 +103,11 @@
                             <li><a class="white-text" href="/cursos/cadastro.html">Sistemas Operacionais</a></li>
                         </ul>
                     </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <p align="center">© 2017 ProjetoIntegrador 2</p>
                 </div>
             </div>
         </footer>
