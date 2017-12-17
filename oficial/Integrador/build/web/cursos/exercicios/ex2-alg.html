@@ -1,88 +1,88 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
-<head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sia-Tech</title>
-    <link rel="stylesheet" type="text/css" href="../../css/material.css"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercícios</title>
+        <link rel="stylesheet" type="text/css" href="../../css/materialize.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <script language="javascript" type="text/javascript">
-        function validar() {
-            var pontos = 0;
-            var msg = "";
-            var q1 = form1.p1.value;
-            var q2 = form1.p2.value;
-            if (q1 == 2) {
-                pontos++;
-                msg += "\nacertou a questão 1";
+        <script language="javascript" type="text/javascript">
+            function validar() {
+                var pontos = 0;
+                var msg = "";
+                var q1 = form1.p1.value;
+                var q2 = form1.p2.value;
+                if (q1 == 2) {
+                    pontos++;
+                    msg += "\nacertou a questão 1";
+                }
+                if (q2 == 3) {
+                    pontos++;
+                    msg += "\nacertou a questão 2\n";
+                }
+                alert("acertos: " + pontos + msg);
             }
-            if (q2 == 3) {
-                pontos++;
-                msg += "\nacertou a questão 2\n";
-            }
-            alert("acertos: " + pontos + msg);
-        }
-    </script>
+        </script>
 
-</head>
-<body>
+    </head>
+    <body>
 
-<div class="navbar-fixed">
-    <nav>
-        <div class="nav-wrapper container">
-            <a href="../../index.html#top" class="brand-logo">Sia-Tech</a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="../../cursos.html">Cursos</a></li>
-                <li><a href="../../index.html#quemSomos">Quem Somos</a></li>
-                <li><a href="../../index.html#depoimentos">Depoimentos</a></li>
-                <li><a href="../../faleConosco.html">Fale Conosco</a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
-
-<div id="top" class="section no-pad-bot">
-
-    <div class="container">
-
-        </br>
-        </br>
-        </br>
-
-        <h1 class="center purple-text">Exercicio 2</h1>
-
-        <div class="row center">
-
-            <h5 class="col s12">Algoritmos e Logica de programação</h5>
-
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper purple">
+                    <a href="../../index.html" class="brand-logo">Exercícios ALG</a>
+                    <ul  class="right hide-on-med-and-down">
+                        <li><a href="../../index.html">Home</a></li>
+                        <li><a href="../../quemSomos.html">Quem somos</a></li>
+                        <li><a href="../../cursos.html">Cursos</a></li>
+                        <li><a href="../../faleConosco.jsp">Fale Conosco</a></li>    
+                    </ul> 
+                </div>
+            </nav>
         </div>
 
+        <div id="top" class="section no-pad-bot">
+
+            <div class="container">
+
+                </br>
+                </br>
+                </br>
+
+                <h1 class="center purple-text">Exercicio 2</h1>
+
+                <div class="row center">
+
+                    <h5 class="col s12">Algoritmos e Logica de programação</h5>
+
+                </div>
+
+                </br>
+                </br>
+
+            </div>
+
+        </div>
+
         </br>
         </br>
 
-    </div>
+        <div class="section">
 
-</div>
+            <div class="container">
 
-</br>
-</br>
+                <div class="row">
 
-<div class="section">
+                    <form class="col l12">
 
-    <div class="container">
+                        <div>
 
-        <div class="row">
-
-            <form class="col l12">
-
-                <div>
-
-                    <h5>Observe o trecho de código abaixo.</h5>
-                    </br>
-                    <code>
-                    <pre>
+                            <h5>Observe o trecho de código abaixo.</h5>
+                            </br>
+                            <code>
+                                <pre>
                         atribuir 13 a INDICE;
                         atribuir 0 a SOMA;
                         atribuir 0 a K;
@@ -95,195 +95,193 @@
                         fim;
                         fim-enquanto;
                         imprimir(SOMA);
-                    </pre>
-                    </code>
-                    </br>
+                                </pre>
+                            </code>
+                            </br>
 
-                    <h5>Ao final do processamento, a variável SOMA terá o seguinte valor:</h5>
+                            <h5>Ao final do processamento, a variável SOMA terá o seguinte valor:</h5>
 
-                    <p>
-                        <input name="perg1" type="radio" id="test1" value="1"/>
-                        <label for="test1">3.</label>
-                    </p>
+                            <p>
+                                <input name="perg1" type="radio" id="test1" value="1"/>
+                                <label for="test1">3.</label>
+                            </p>
 
-                    <p>
-                        <input name="perg1" type="radio" id="test2" value="2"/>
-                        <label for="test2">6.</label>
-                    </p>
+                            <p>
+                                <input name="perg1" type="radio" id="test2" value="2"/>
+                                <label for="test2">6.</label>
+                            </p>
 
-                    <p>
-                        <input name="perg1" type="radio" id="test3" value="3"/>
-                        <label for="test3">66.</label>
-                    </p>
+                            <p>
+                                <input name="perg1" type="radio" id="test3" value="3"/>
+                                <label for="test3">66.</label>
+                            </p>
 
-                    <p>
-                        <input name="perg1" type="radio" id="test4" value="4"/>
-                        <label for="test4">Nenhum.</label>
-                    </p>
+                            <p>
+                                <input name="perg1" type="radio" id="test4" value="4"/>
+                                <label for="test4">Nenhum.</label>
+                            </p>
+
+                        </div>
+
+                        </br>
+                        <div class="divider"></div>
+                        </br>
+
+                        <div>
+
+                            <h5>Considere: zero é um número natural. O sucessor de um número natural é um número natural.
+                                Assim, em termos de algoritmo, o enunciado trata da possibilidade de aplicação de uma técnica
+                                denominada:</h5>
+
+                            <p>
+                                <input name="perg2" type="radio" id="test5" value="1"/>
+                                <label for="test5">Matriciação.</label>
+                            </p>
+
+                            <p>
+                                <input name="perg2" type="radio" id="test6" value="2"/>
+                                <label for="test6">Integração.</label>
+                            </p>
+
+                            <p>
+                                <input name="perg2" type="radio" id="test7" value="3"/>
+                                <label for="test7">Agregação.</label>
+                            </p>
+
+                            <p>
+                                <input name="perg2" type="radio" id="test8" value="4"/>
+                                <label for="test8">Recursão.</label>
+                            </p>
+
+                        </div>
+
+                        </br>
+                        <div class="divider"></div>
+                        </br>
+
+                        <div>
+
+                            <h5>Objeto que se constistui parcialmente ou é definido em termos de si próprio. Nesse contexto, um
+                                tipo especial de procedimento (algoritmo) será utilizado, algumas vezes, para a solução de
+                                alguns problemas. Esse procedimento é denominado:</h5>
+
+                            <p>
+                                <input name="perg3" type="radio" id="test9" value="1"/>
+                                <label for="test9">Repetição.</label>
+                            </p>
+
+                            <p>
+                                <input name="perg3" type="radio" id="test10" value="2"/>
+                                <label for="test10">Interligação.</label>
+                            </p>
+
+                            <p>
+                                <input name="perg3" type="radio" id="test11" value="3"/>
+                                <label for="test11">Condicionalidade.</label>
+                            </p>
+
+                            <p>
+                                <input name="perg3" type="radio" id="test12" value="4"/>
+                                <label for="test12">Recursividade.</label>
+                            </p>
+
+                        </div>
+
+                        </br>
+                        <div class="divider"></div>
+                        </br>
+
+                        <div>
+
+                            <h5>Formalização de algoritmo proposto em 1936, universalmente conhecido e aceito. Trata-se de um
+                                mecanismo simples, que formaliza a ideia de uma pessoa que realiza cálculos, denominado:</h5>
+
+                            <p>
+                                <input name="perg4" type="radio" id="test13" value="1"/>
+                                <label for="test13">Recursividade de Bird.</label>
+                            </p>
+
+                            <p>
+                                <input name="perg4" type="radio" id="test14" value="2"/>
+                                <label for="test14">Máquina de Redução.</label>
+                            </p>
+
+                            <p>
+                                <input name="perg4" type="radio" id="test15" value="3"/>
+                                <label for="test15">Máquina de Turing.</label>
+                            </p>
+
+                            <p>
+                                <input name="perg4" type="radio" id="test16" value="4"/>
+                                <label for="test16">Nehuma.</label>
+                            </p>
+
+                        </div>
+
+                        </br>
+                        </br>
+
+                        <div class="row center-align">
+                            <input class="btnsia" type="reset" value="Limpar">
+                            <input class="btnsia " type="button" value="Corrigir" onclick="return validar()">
+                        </div>
+
+                    </form>
 
                 </div>
 
-                </br>
-                <div class="divider"></div>
-                </br>
-
-                <div>
-
-                    <h5>Considere: zero é um número natural. O sucessor de um número natural é um número natural.
-                        Assim, em termos de algoritmo, o enunciado trata da possibilidade de aplicação de uma técnica
-                        denominada:</h5>
-
-                    <p>
-                        <input name="perg2" type="radio" id="test5" value="1"/>
-                        <label for="test5">Matriciação.</label>
-                    </p>
-
-                    <p>
-                        <input name="perg2" type="radio" id="test6" value="2"/>
-                        <label for="test6">Integração.</label>
-                    </p>
-
-                    <p>
-                        <input name="perg2" type="radio" id="test7" value="3"/>
-                        <label for="test7">Agregação.</label>
-                    </p>
-
-                    <p>
-                        <input name="perg2" type="radio" id="test8" value="4"/>
-                        <label for="test8">Recursão.</label>
-                    </p>
-
-                </div>
-
-                </br>
-                <div class="divider"></div>
-                </br>
-
-                <div>
-
-                    <h5>Objeto que se constistui parcialmente ou é definido em termos de si próprio. Nesse contexto, um
-                        tipo especial de procedimento (algoritmo) será utilizado, algumas vezes, para a solução de
-                        alguns problemas. Esse procedimento é denominado:</h5>
-
-                    <p>
-                        <input name="perg3" type="radio" id="test9" value="1"/>
-                        <label for="test9">Repetição.</label>
-                    </p>
-
-                    <p>
-                        <input name="perg3" type="radio" id="test10" value="2"/>
-                        <label for="test10">Interligação.</label>
-                    </p>
-
-                    <p>
-                        <input name="perg3" type="radio" id="test11" value="3"/>
-                        <label for="test11">Condicionalidade.</label>
-                    </p>
-
-                    <p>
-                        <input name="perg3" type="radio" id="test12" value="4"/>
-                        <label for="test12">Recursividade.</label>
-                    </p>
-
-                </div>
-
-                </br>
-                <div class="divider"></div>
-                </br>
-
-                <div>
-
-                    <h5>Formalização de algoritmo proposto em 1936, universalmente conhecido e aceito. Trata-se de um
-                        mecanismo simples, que formaliza a ideia de uma pessoa que realiza cálculos, denominado:</h5>
-
-                    <p>
-                        <input name="perg4" type="radio" id="test13" value="1"/>
-                        <label for="test13">Recursividade de Bird.</label>
-                    </p>
-
-                    <p>
-                        <input name="perg4" type="radio" id="test14" value="2"/>
-                        <label for="test14">Máquina de Redução.</label>
-                    </p>
-
-                    <p>
-                        <input name="perg4" type="radio" id="test15" value="3"/>
-                        <label for="test15">Máquina de Turing.</label>
-                    </p>
-
-                    <p>
-                        <input name="perg4" type="radio" id="test16" value="4"/>
-                        <label for="test16">Nehuma.</label>
-                    </p>
-
-                </div>
-
-                </br>
-                </br>
-
-                <div class="row center-align">
-                    <input class="btnsia" type="reset" value="Limpar">
-                    <input class="btnsia " type="button" value="Corrigir" onclick="return validar()">
-                </div>
-
-            </form>
+            </div>
 
         </div>
 
     </div>
 
-</div>
+    </br>
+    </br>
 
-</div>
-
-</br>
-</br>
-
-<footer class="page-footer">
-    <div class="container">
+    <footer class="page-footer purple">
         <div class="row">
             <div class="col l6 s12">
-                <h5 class="white-text">Sia-Tech</h5>
-                <p>
-                    Nós somos um time de estudantes universitarios, trabalhando em um projeto, denominado
-                    Projeto Integrador, pelo <a target="_blank" href="http://www.iftm.edu.br/uberlandiacentro/"> <strong
-                        class="white-text">Instituto Federal de Ciencias e Tecnologia do
-                    Triangulo Mineiro - Campus Uberlandia Centro</strong></a>. Todo nosso trabalho foi baseado no
-                    Material Design,
+                <h5 class="white-text">PI2</h5>
+                <p align="justify">
+                    Nós somos um time de estudantes universitarios,
+                    trabalhando em um projeto, denominado Projeto Integrador,
+                    pelo
+                    <a target="_blank" href="http://www.iftm.edu.br/uberlandiacentro/"> <strong
+                            class="white-text">Instituto Federal de Ciencias e Tecnologia do Triangulo 
+                            Mineiro - Campus Uberlandia Centro</strong></a>.
+                    Todo nosso trabalho foi baseado no Material Design,
                     Desenvolvido pela equipe da Google.
                 </p>
-
-
             </div>
             <div class="col l3 s12">
                 <h5 class="white-text">Navegação</h5>
                 <ul>
                     <li><a class="white-text" href="../../index.html">Home</a></li>
-                    <li><a class="white-text" href="../../index.html#quemSomos">Quem Somos</a></li>
+                    <li><a class="white-text" href="../../quemSomos.html">Quem Somos</a></li>
+                    <li><a class="white-text" href="../../cursos.html">Cursos</a></li>
                     <li><a class="white-text" href="../../index.html#depoimentos">Depoimentos</a></li>
-                    <li><a class="white-text" href="../../faleConosco.html">Fale Conosco</a></li>
+                    <li><a class="white-text" href="../../faleConosco.jsp">Fale Conosco</a></li>
                 </ul>
             </div>
             <div class="col l3 s12">
                 <h5 class="white-text">Cursos</h5>
                 <ul>
-                    <li><a class="white-text" href="../../cursos/aoc.html">Arquitetura e Organização de Computadores</a>
-                    </li>
-                    <li><a class="white-text" href="../../cursos/fwd.html">Fundamentos de Web Design I</a></li>
-                    <li><a class="white-text" href="../../cursos/in.html">Inglês Instrumental</a></li>
-                    <li><a class="white-text" href="../../cursos/alg.html">Lógica de Programação</a></li>
-                    <li><a class="white-text" href="../../cursos/mc.html">Metodologia Centifica</a></li>
-                    <li><a class="white-text" href="../../cursos/so.html">Sistemas Operacionais</a></li>
+                    <li><a class="white-text" href="../aoc.html">Arquitetura e Organização de Computadores</a></li>
+                    <li><a class="white-text" href="../fwd.html">Fundamentos de Web Design I</a></li>
+                    <li><a class="white-text" href="../in.html">Inglês Instrumental</a></li>
+                    <li><a class="white-text" href="../alg.html">Lógica de Programação</a></li>
+                    <li><a class="white-text" href="../mc.html">Metodologia Centifica</a></li>
+                    <li><a class="white-text" href="../so.html">Sistemas Operacionais</a></li>
                 </ul>
             </div>
         </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="container">
-            © 2015 Copyright Sia-Tech
+        <div class="footer-copyright">
+            <div class="container">
+                <p align="center">© 2017 ProjetoIntegrador 2</p>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
 </body>
 </html>

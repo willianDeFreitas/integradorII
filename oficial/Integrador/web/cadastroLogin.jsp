@@ -9,8 +9,9 @@
     <body>
         <%
             String a = "";
-            if(request.getAttribute("naoExiste") != null)
-                a = (String)(request.getAttribute("naoExiste"));                        
+            if (request.getAttribute("naoExiste") != null) {
+                a = (String) (request.getAttribute("naoExiste"));
+            }
         %>
         <nav>
             <div class="nav-wrapper purple">
@@ -77,9 +78,9 @@
                         <h5 class="white-text">PI2</h5>
                         <p align="justify">Nós somos um time de estudantes universitarios, trabalhando
                             em um projeto, denominado Projeto Integrador, pelo 
-<a target="_blank" href="http://www.iftm.edu.br/uberlandiacentro/"> <strong class="white-text">Instituto Federal de Ciencias e Tecnologia do
-                            Triangulo Mineiro - Campus Uberlandia Centro</strong>
-</a>. Todo nosso trabalho foi baseado no Material Design, Desenvolvido pela 
+                            <a target="_blank" href="http://www.iftm.edu.br/uberlandiacentro/"> <strong class="white-text">Instituto Federal de Ciencias e Tecnologia do
+                                    Triangulo Mineiro - Campus Uberlandia Centro</strong>
+                            </a>. Todo nosso trabalho foi baseado no Material Design, Desenvolvido pela 
                             equipe da Google.
                         </p>
                     </div>
@@ -87,20 +88,19 @@
                         <h5 class="white-text">Navegação</h5>
                         <ul>
                             <li><a class="white-text" href="index.html">Home</a></li>
-                            <li><a class="white-text" href="index.html#quemSomos">Quem Somos</a></li>
-                            <li><a class="white-text" href="index.html#depoimentos">Depoimentos</a></li>
-                            <li><a class="white-text" href="/faleConosco.html">Fale Conosco</a></li>
+                            <li><a class="white-text" href="quemSomos.html">Quem Somos</a></li>
+                            <li><a class="white-text" href="faleConosco.jsp">Fale Conosco</a></li>
                         </ul>
                     </div>
                     <div class="col l3 s12">
                         <h5 class="white-text">Cursos</h5>
                         <ul>
-                            <li><a class="white-text" href="/cursos/cadastro.html">Arquitetura e Organização de Computadores</a></li>
-                            <li><a class="white-text" href="/cursos/cadastro.html">Fundamentos de Web Design I</a></li>
-                            <li><a class="white-text" href="/cursos/cadastro.html">Inglês Instrumental</a></li>
-                            <li><a class="white-text" href="/cursos/cadastro.html">Lógica de Programação</a></li>
-                            <li><a class="white-text" href="/cursos/cadastro.html">Metodologia Centifica</a></li>
-                            <li><a class="white-text" href="/cursos/cadastro.html">Sistemas Operacionais</a></li>
+                            <li><a class="white-text" href="cadastroLogin.jsp">Arquitetura e Organização de Computadores</a></li>
+                            <li><a class="white-text" href="cadastroLogin.jsp">Fundamentos de Web Design I</a></li>
+                            <li><a class="white-text" href="cadastroLogin.jsp">Inglês Instrumental</a></li>
+                            <li><a class="white-text" href="cadastroLogin.jsp">Lógica de Programação</a></li>
+                            <li><a class="white-text" href="cadastroLogin.jsp">Metodologia Centífica</a></li>
+                            <li><a class="white-text" href="cadastroLogin.jsp">Sistemas Operacionais</a></li>
                         </ul>
                     </div>
                 </div>
