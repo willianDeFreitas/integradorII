@@ -52,17 +52,32 @@ public class Control2 extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
             
-            request.setCharacterEncoding("UTF-8");
-            response.setContentType("text/html;charset=UTF-8");
-            
-            List<Clientes> result = le();
-            if(!result.isEmpty())
-            {
-               request.setAttribute("resp", result);
-               request.getRequestDispatcher("Exibicao.jsp").forward(request, response);        
+        request.setCharacterEncoding("UTF-8");
+        response.setContentType("text/html;charset=UTF-8");
+           
+        List<Clientes> result = le();
+        if(!result.isEmpty()){
+            int cont1=0,cont2=0,cont3=0;
+            for (Clientes c : result){    
+                if((request.getParameter("user").equals(c.getUser()))&&(request.getParameter("senha").equals(c.getSenha()))){
+                    cont1++;
+                }else if((!request.getParameter("user").equals(c.getUser()))||(!request.getParameter("senha").equals(c.getSenha()))){
+                    cont2++;
+                }
+                cont3++;
             }
-            else
-                 request.getRequestDispatcher("Exibicao2.jsp").forward(request, response);                    
+            if(cont1>0){
+                request.getRequestDispatcher("cursos.html").forward(request, response);
+            }else if(cont2>cont1){
+                String naoExiste = "Usuário/Senha estão incorretos ou não existem";
+                request.setAttribute("naoExiste", naoExiste);
+                request.getRequestDispatcher("cadastroLogin.jsp").forward(request, response);
+            }
+        }else{
+            String naoExiste = "Usuário/Senha estão incorretos ou não existem";
+            request.setAttribute("naoExiste", naoExiste);
+            request.getRequestDispatcher("cadastroLogin.jsp").forward(request, response);                    
+        }
     }
 
     @Override
